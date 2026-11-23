@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Duyzz Voice Bubble</string>
+    <string name="notification_channel_name">Duyzz Voice Bubble Service</string>
+    <string name="notification_channel_desc">Menjaga asisten suara melayang tetap aktif 24 jam di latar belakang.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyber_bg">#090D16</color>
+    <color name="cyber_surface">#101726</color>
+    <color name="cyber_surface_elevated">#151F33</color>
+    <color name="cyber_border">#22304C</color>
+
+    <color name="neon_cyan">#00F5D4</color>
+    <color name="neon_cyan_dim">#3300F5D4</color>
+    <color name="neon_red">#FF2A5F</color>
+    <color name="neon_red_dim">#33FF2A5F</color>
+
+    <color name="text_primary">#EAF2FF</color>
+    <color name="text_secondary">#8FA3BF</color>
+    <color name="text_muted">#5B6E8A</color>
+</resources>

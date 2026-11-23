@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_quick_menu"
+    android:elevation="16dp"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:letterSpacing="0.08"
+        android:text="DUYZZ VOICE BUBBLE"
+        android:textColor="@color/neon_cyan"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMenuStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="STATUS: LISTENING 🎙️"
+        android:textColor="@color/neon_cyan"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMenuLastLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:fontFamily="monospace"
+        android:maxLines="2"
+        android:text="Log: Menunggu perintah suara..."
+        android:textColor="@color/text_secondary"
+        android:textSize="11sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="12dp"
+        android:background="@color/cyber_border" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="DAFTAR PERINTAH SUARA (id-ID)"
+        android:textColor="@color/text_primary"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="4dp"
+        android:text="• &quot;buka [aplikasi]&quot; / &quot;[aplikasi]&quot;\n• &quot;cari di tiktok [kata kunci]&quot;\n• &quot;cari di youtube [kata kunci]&quot;\n• &quot;cari [kata kunci]&quot; (Google)\n• &quot;mute&quot; / &quot;diam&quot;"
+        android:textColor="@color/text_secondary"
+        android:textSize="11.5sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMenuToggleMute"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_cyber_button_red"
+        android:fontFamily="monospace"
+        android:text="🔇 MUTE MIKROFON"
+        android:textAllCaps="false"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMenuStopService"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_cyber_button_red"
+        android:fontFamily="monospace"
+        android:text="⏻ MATIKAN SERVICE"
+        android:textAllCaps="false"
+        android:textColor="@color/neon_red"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMenuClose"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_cyber_button_subtle"
+        android:fontFamily="monospace"
+        android:text="TUTUP MENU"
+        android:textColor="@color/neon_cyan"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
